@@ -29,7 +29,7 @@ phases:
 
       # install flutter
       - echo "Install flutter"
-      - FLUTTER_VERSION='v1.26.5'
+      - FLUTTER_VERSION='1.22.5-stable'
       - >-
         if [ $DEVICEFARM_DEVICE_PLATFORM_NAME = "Android" ];
         then
